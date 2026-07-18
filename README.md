@@ -9,21 +9,11 @@ This is a documentation that explain the implementation, setup, configuration of
 
 > AWS EC2 (Ubuntu 26.04) 
 >    
-> Backend Configuration
+> MongoDB Installation
 >
-> Installing ExpressJS
+> ExpressJS Installation
 > 
-> Installing MongoDB
->
-> MongoDB Database
->
-> Testing backend Code without Frontend using RESTful API
->
-> Frontend Creation
->
-> Create React Componenets
-
-
+> AngularJS
 
 
 # STEP 1 - PREREQUISITES
@@ -58,7 +48,9 @@ sudo apt install -y nodejs
 
 ![alt text](<Images/6- intall nodejs.png>)
 
+
 # STEP 2 - MongoDB Installation
+
 1.  Download the MongoDB public GPG key
 
 ![GPG Key1](<Images/7- mdb dep1.png>)
@@ -199,3 +191,10 @@ The code was corrected and the server was connected successfully
 
 # Conclusion
 
+## Conclusion
+
+This project demonstrates the successful development and deployment of a full-stack web application using the **MEAN Stack (MongoDB, Express.js, AngularJS, and Node.js)**.
+
+Throughout this project, I implemented a RESTful API, connected the application to a MongoDB database using Mongoose, built a dynamic AngularJS frontend, and deployed the application on an AWS EC2 instance running Ubuntu. The application supports full CRUD (Create, Read, Read All, and Delete) operations for managing book records.
+
+This project represents an important milestone in my journey toward becoming a Cloud and DevOps Engineer while strengthening my full-stack development skills. It also serves as a solid foundation for building more scalable and production-ready applications using modern JavaScript technologies.
